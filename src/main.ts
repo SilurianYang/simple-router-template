@@ -1,7 +1,9 @@
 import Vue from 'vue'
 import App from './App.vue'
-import {router,RouterMount} from './router'  //路径换成自己的
-Vue.use(router)
+import uView from "uview-ui";
+import {router,RouterMount} from './router'
+Vue.use(router);
+Vue.use(uView);
 
 Vue.config.productionTip = false
 
